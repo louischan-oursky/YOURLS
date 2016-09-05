@@ -4,6 +4,7 @@
 
 # Configuration
 user/*
+!user/plugins/
 !user/config-sample.php
 .htaccess
 *.config
@@ -19,6 +20,7 @@ user/plugins/*
 # Core plugins
 !user/plugins/hyphens-in-urls/
 !user/plugins/random-bg/
+!user/plugins/random-keywords/
 !user/plugins/sample-page/
 !user/plugins/sample-plugin/
 !user/plugins/sample-toolbar/
